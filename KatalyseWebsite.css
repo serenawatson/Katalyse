@@ -1,0 +1,229 @@
+body{
+    background-color: #242424;
+    height: 100%;
+    width: 100%;
+}
+/*top bar navigation*/
+.topbar{
+    background-color: #434444 ;
+    height: 50px;
+    background-image: url("/Users/serena/Desktop/Hack/Title.png");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.profile{
+    border-radius: 9999px;
+    background-image: url(https://i.pinimg.com/236x/f8/a8/76/f8a876ff2d5df3f4193bc17f43c7089b.jpg);
+    background-position: center;
+    background-size: contain;
+    width: 45px;
+    height: 45px;
+    position:absolute; 
+    right:20px; 
+    margin: 3px;
+}
+
+.chat{
+    border-radius: 9999px;
+    background-image: url("/Users/serena/Desktop/Hack/Screen\ Shot\ 2020-09-19\ at\ 12.44.11\ pm.png");
+    background-position: center;
+    background-size: contain;
+    width: 45px;
+    height: 45px;
+    position:absolute; 
+    right:90px; 
+    margin:3px;
+
+}
+.topbar input[type=text] {
+    border-radius: 9px;
+    position: absolute;
+    padding: 6px;
+    margin-top: 8px;
+    right: 160px;
+    font-size: 15px;
+    background-color: #434444;
+    color:white;
+    border-color: white;
+  }
+
+  ::placeholder{
+      color:white;
+      opacity: 30%;
+  }
+
+  .home{
+    border-radius: 9999px;
+    background-image: url("/Users/serena/Desktop/Screen\ Shot\ 2020-09-20\ at\ 5.23.27\ pm.png");
+    background-position: center;
+    background-size: 150%;
+    width: 45px;
+    height: 45px;
+    position:absolute; 
+    left:70px; 
+    margin: 3px;
+  }
+
+  .settings{
+    background-image: url("/Users/serena/Desktop/Screen\ Shot\ 2020-09-20\ at\ 5.19.25\ pm.png");
+    background-position: center;
+    background-size: contain;
+    width: 45px;
+    height: 45px;
+    position:absolute; 
+    left:20px; 
+    margin: 3px;
+  }
+
+/*side game bar navigation*/
+.side{
+    background-color: #C4C4C4;
+    opacity: 70%;
+    height: 100%;
+    width: 20%;
+    margin: 10px;
+    padding:10px;
+    border-radius: 15px;
+    position: absolute;
+  }
+
+.My_Games{
+    font-family: "Helvetica Neue"; 
+    font-size: 20px; 
+    margin: 10px;
+    float: left;
+    height: 20px;
+    width: 100%;
+}
+
+.scroll_frame{
+    margin: 10px;
+    overflow-y: scroll;
+    padding: 10px;
+}
+
+
+h2 {
+    background-color:#FDBAAA;
+    border-radius: 9px;
+    text-align: center;
+    font-family: "Helvetica Neue"; 
+    font-size: 15px; 
+    font-weight: Bold;
+    padding: 10px;
+}
+
+h3 {
+    background-color:#9EE9FC;
+    border-radius: 9px;
+    text-align: center;
+    font-family: "Helvetica Neue"; 
+    font-size: 15px;
+    font-weight: Bold;
+    position: relative;
+    padding: 10px;
+}
+
+h4 {
+    background-color:grey;
+    border-radius: 9px;
+    font-family: "Helvetica Neue"; 
+    font-size: 15px; 
+    font-weight: Bold;
+    position: relative;
+    padding: 10px;
+    text-align: center;
+}
+
+.Katalyse_top{
+    background-color: #7FEFD8;
+    opacity: 80%;
+    margin-left: 300px;
+    margin-right: 10px;
+    margin-top: 10px;
+    height: 240px;
+    width: 670px;
+    border-radius: 15px;
+    padding:10px;
+
+}
+.horiz_row{
+    background-color: #727070; 
+    border-radius: 0px 0px 15px 15px;
+    height: 177px;
+    width: 650px;
+    padding: 10px;
+    overflow-x: scroll;
+}
+
+.col_1{
+    float: left;
+    width: 100px;
+    height: 150px;
+    margin: 10px;
+    padding: 5px;
+    border-radius: 15px;
+    background-color: #FDBAAA;
+    text-align: center;
+    text-overflow: ellipsis;
+}
+
+
+.col_2{
+    float: left;
+    width: 100px;
+    height: 150px;
+    margin: 10px;
+    padding: 5px;
+    border-radius: 15px;
+    background-color: #9EE9FC;
+    text-align: center;
+    text-overflow: ellipsis;
+}
+
+.col_3{
+    float: left;
+    width: 100px;
+    height: 150px;
+    margin: 10px;
+    padding: 5px;
+    border-radius: 15px;
+    background-color: grey;
+    text-align: center;
+    text-overflow: ellipsis;
+}
+
+p1{
+    color:black;
+    font-family: "Helvetica Neue"; 
+    font-size: 15px; 
+    font-weight: Bold;
+}
+
+p2{
+    color:black;
+    font-family: "Helvetica Neue"; 
+    font-size: 12px; 
+    font-style: italic;
+}
+
+.Feed{
+    margin-left: 300px;
+    margin-right: 10px;
+    margin-top: 10px;
+    height: 240px;
+    width: 670px;
+    border-radius: 15px;
+    padding:10px;
+}
+
+.post{
+    background-color: #5FEED1;
+    opacity: 80%;
+    width: 650px;
+    height: fit-content;
+    border-radius: 15px;
+    padding:10px;
+}
